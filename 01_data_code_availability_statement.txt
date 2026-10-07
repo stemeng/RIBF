@@ -1,0 +1,13 @@
+Data and Code Availability Statement
+
+The replication package accompanying this paper provides the author-written code, configuration files, documentation, and derived outputs needed to reconstruct and verify the analyses, subject to lawful access to the underlying bibliographic records.
+
+The package includes code for retrieving article-level records from Scopus at the journal-year level, the list of journals and ISSNs/EISSNs used in the study, the journal-year retrieval ledger, sample construction documentation, software and package versions, model configuration details, topic-level outputs, and the complete dictionary of the 226 non-outlier topics identified by the baseline BERTopic model.
+
+The raw article abstracts used in the analysis were retrieved from Scopus. Because Scopus records and abstract text are subject to Elsevier licensing restrictions, the raw abstract text is not redistributed in this package. Instead, the package provides a lawful reconstruction route for researchers with institutional access to Scopus. Specifically, researchers can use the journal ISSN list, retrieval scripts, journal-year ledger, filtering rules, deduplication procedure, and preprocessing documentation to reconstruct the analytical corpus.
+
+The package also provides permissible derived materials, including canonical topic identifiers, topic labels, representative keywords, topic sizes, journal-year retrieval information, topic-share outputs, journal-topic matrices, geographic contribution files, and validation-related outputs. These files allow researchers to verify the reported tables and figures conditional on lawful access to the underlying Scopus records.
+
+Minor differences in reconstructed data may arise if Scopus updates metadata, abstracts, citation counts, or publication records after the original retrieval date. For this reason, the journal-year retrieval ledger documents the original retrieval path, journal-year coverage, retrieved records, eligible records, and abstract availability used in the paper.
+
+The author-written code and documentation are provided to facilitate transparency and reproducibility while respecting licensing restrictions on the redistribution of raw Scopus text.
